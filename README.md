@@ -17,3 +17,9 @@
 
 可以通过以下命令安装依赖：
 pip install tensorflow numpy matplotlib jupyter
+
+📝 项目说明
+本项目基于 CIFAR-10 数据集（包含 10 类物体的 60000 张 32×32 彩色图像），通过数据增强提升模型泛化能力，使用卷积神经网络（CNN）进行图像分类，并可视化训练过程以监控模型性能。
+📚 参考资料
+CIFAR-10 官方网站
+TensorFlow 图像分类教程
