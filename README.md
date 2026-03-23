@@ -16,10 +16,31 @@
 - Jupyter Notebook
 
 可以通过以下命令安装依赖：
+```bash
 pip install tensorflow numpy matplotlib jupyter
+```
 
-📝 项目说明
+## 🚀 快速开始
+1. 克隆本仓库到本地：
+   ```bash
+   git clone https://github.com/Ytq0809/friendly-memory.git
+   ```
+2. 进入项目目录，启动 Jupyter Notebook：
+   ```bash
+   jupyter notebook
+   ```
+3. 打开 `CIFAR-10图像分类.ipynb`，依次运行所有单元格即可复现训练过程与结果。
+
+## 📊 结果展示
+### 数据增强示例
+![数据增强示例](augmented_examples.png)
+
+### 训练曲线
+![训练曲线](training_curve.png)
+
+## 📝 项目说明
 本项目基于 CIFAR-10 数据集（包含 10 类物体的 60000 张 32×32 彩色图像），通过数据增强提升模型泛化能力，使用卷积神经网络（CNN）进行图像分类，并可视化训练过程以监控模型性能。
-📚 参考资料
-CIFAR-10 官方网站
-TensorFlow 图像分类教程
+
+## 📚 参考资料
+- [CIFAR-10 官方网站](https://www.cs.toronto.edu/~kriz/cifar.html)
+- [TensorFlow 图像分类教程](https://www.tensorflow.org/tutorials/images/classification)
